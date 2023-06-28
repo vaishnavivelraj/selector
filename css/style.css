@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	box-size:border-box;
+}
+.heading{
+	font-size:45px;
+	font-weight:bold;
+}
+.simplesel{
+	text-align:center;
+}
+.combinatorsel{
+	text-align:center;
+}
+/*Simple Selector*/
+h1{
+	color:red;
+}
+p{
+	color:blue;
+}
+}
+.para{
+	background-color:pink;
+}
+#title{
+	background-color:black;
+}
+/*group Selector*/
+span,h1{
+	background-color:yellow;
+}
+/*Combinator Selector*/
+.combinator  p{
+	color:green;
+}
+.combinator>p{
+		background-color:blue;
+}
+.combinator h1{
+	color:violet;
+	background-color:white;
+}
+.combinator+p{
+	color:red;
+}
+.combinator~p{
+	background-color:red;
+}
+.com
